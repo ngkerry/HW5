@@ -28,9 +28,12 @@ circle2.h = random(360);
 function draw() 
 {
 background(255);
+colorMode(HSB)
   
 paint(circle);
+fill(circle.h,100,100);
 paint(circle2);
+fill(circle2.h,100,100);
   
 move(circle);
 move(circle2);
