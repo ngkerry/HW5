@@ -37,10 +37,13 @@ createCanvas(400, 400);
 function draw() 
 {
 background(255);
-  
+colorMode(HSB)
 paint(circle1);
+fill(circle1,100,100);
 paint(circle2);
+fill(circle2,100,100);
 paint(circle3);
+fill(circle3,100,100);
   
 move(circle1);
 move(circle2);
